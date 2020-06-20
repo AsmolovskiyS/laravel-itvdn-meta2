@@ -1,0 +1,26 @@
+{
+    "name": "asmolovskiy/meta",
+    "description": "This is for ITVDN video lessons",
+    "authors": [
+        {
+            "name": "Sergey Asmolovskiy",
+            "email": "Asmolovskiy.Sergey@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Asmolovskiy\\Meta\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Asmolovskiy\\Meta\\MetaServiceProvider"
+            ],
+            "aliases": {
+                "Meta": "Asmolovskiy\\Meta\\Meta"
+            }
+        }
+    }
+}
